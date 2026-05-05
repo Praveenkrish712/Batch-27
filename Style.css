@@ -42,12 +42,12 @@ h2{
     color: #28cdbf;
 }
 
-p{
+/* p{
     background-image: url(./Assets/images.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
+} */
 
 .Container{
     width: 200px;
@@ -88,3 +88,89 @@ p{
     top: 50px;
     left: 500px; */
 }
+
+.boxes > p{
+    display: inline-block;
+    background-color: red;
+    height: 500px;
+    width: 300px;
+}
+
+.box1{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    flex: 2;
+    /* order: 2; */
+}
+
+.box2{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    flex: 3;
+    /* order: 3; */
+}
+
+.box3{
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    flex: 1;
+    /* order: 1; */
+}
+
+.box4{
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.box5{
+    width: 200px;
+    height: 100px;
+    background-color: deeppink;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    /* height: 500px; */
+    /* border: 2px solid black; */
+    align-items: start;
+    /* gap: 10px; */
+    /* flex-wrap: wrap; */
+    /* align-content: space-between; */
+}
+
+.box6{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+}
+
+.box7{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+}
+
+.box8{
+    width: 200px;
+    height: 100px;
+    background-color: green;
+}
+
+.box9{
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.box10{
+    width: 200px;
+    height: 100px;
+    background-color: deeppink;
+}
+
