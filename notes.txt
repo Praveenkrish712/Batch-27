@@ -159,3 +159,29 @@ vi)  grid-area: z;
      ====> Set the Animation name
      ====> Set the duration
      ====> We can use the @keyframes to set the name and using Two Types to Animatting one (From To) OR (25%,50%,75%,100%) 
+
+10) Pseudo class
+i) Hover    
+ii) Focus
+iii) nth-child 
+iv) first-child
+v) last-child
+vi) nth-child(odd)
+vii) nth-child(even)
+viii) first-letter
+ix) first-line
+x) Before
+xi) After
+xii) Checked
+
+11) Media Queries or Responsive design
+===> Apply Styles based on the device conditions
+===> Device Types - Mobile, tab and lap/desktop
+
+------> Mobile - 320px to 600px
+------> Tablets - 601px to 800px
+------> Lap/desktop - Above 801px
+
+@media screen and (max-width:size){
+    block of code
+}

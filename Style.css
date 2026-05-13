@@ -5,7 +5,7 @@
     /* background-color: gray; */
 }
 
-h1{
+/* h1{
     color: violet;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px;
@@ -13,9 +13,9 @@ h1{
     text-decoration: line-through;
     text-transform: capitalize;
     font-weight: 900;
-    /* line-height: 5px; */
+    line-height: 5px;
     letter-spacing: 1px;
-}
+} */
 
 h2{
     color: brown;
@@ -326,5 +326,86 @@ h2{
         width: 500px;
         height: 500px;
         background-color: green;
+    }
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+.btn:hover{
+    background-color: green;
+}
+
+input:focus{
+    border: 2px solid blue;
+    outline: none;
+}
+/* 
+li:nth-child(odd){
+    color: red;
+}
+
+li:nth-child(even){
+    color: green;
+} */
+
+/* p::first-line{
+    color: red;
+    font-size: 50px;
+} */
+
+p::after{
+    content: " Praveen";
+}
+
+#check:checked + label{
+    color: greenyellow;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: black;
+}
+
+h1{
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+}
+
+nav > ul{
+    display: flex;
+    gap: 25px;
+}
+
+nav > ul > li{
+    list-style: none;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    color: red;
+    font-size: 18px;
+}
+
+svg{
+    width: 30px;
+    height: 30px;
+    fill: red;
+    display: none;
+}
+
+@media screen and (max-width:500px) {
+    nav{
+        display: none;
+    }
+
+    svg{
+        display: block;
     }
 }
