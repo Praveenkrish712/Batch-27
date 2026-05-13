@@ -251,3 +251,80 @@ h2{
 .footer{
     grid-area: f;
 }
+
+.square{
+    width: 300px;
+    height: 300px;
+    background-color: salmon;
+    transition-duration: 5s;
+    transition-property: all;
+    transition-timing-function: linear;
+}
+
+.square:hover{
+    width: 600px;
+    background-color: blue;
+    /* transition-delay: 5s; */
+    transform: translateY(100px);
+}
+
+.square2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    animation-name: Circle;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+/* @keyframes Circle {
+    25%{
+        width: 200px;
+        height: 200px;
+        background-color: green;
+        left: 10px;
+        top: 10px;
+    }
+
+    50%{
+        width: 300px;
+        height: 300px;
+        background-color: brown;
+        left: 20px;
+        top: 20px;
+    }
+
+    75%{
+        width: 350px;
+        height: 350px;
+        background-color: deeppink;
+        left: 30px;
+        top: 30px;
+    }
+
+    100%{
+        width: 400px;
+        height: 400px;
+        background-color: cyan;
+        left: 40px;
+        top: 40px;
+    }
+} */
+
+
+@keyframes Circle {
+    from{
+        width: 300px;
+        height: 300px;
+        background-color: aqua;
+    }
+
+    to{
+        width: 500px;
+        height: 500px;
+        background-color: green;
+    }
+}

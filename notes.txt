@@ -135,3 +135,27 @@ v) grid-template-areas:
     "sb1 m sb2"
     "f f f";
 vi)  grid-area: z;                 
+
+9) Transition and Animation
+
+====> Transition - Whenever we hover(Affect) some action will do its called Transition
+====> Animation - Whenever the website/webpage will reload or refresh some action will do its called Animation
+
+-----> Transition
+          transition-duration: 5s;
+          transition-property: all;
+          transition-timing-function: ease-in;
+                                    : ease-out;
+                                    : ease-in-out;
+                                    : linear;
+
+-----> transform     (Its will work both X and Y)
+             transform: rotate(45deg);  
+                      : scale(2);  
+                      : translate(100px);                      
+
+
+------> Animation  
+     ====> Set the Animation name
+     ====> Set the duration
+     ====> We can use the @keyframes to set the name and using Two Types to Animatting one (From To) OR (25%,50%,75%,100%) 
